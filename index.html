@@ -1,20 +1,61 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>RockPaperScissors</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "icon" href = "./Pics/Picture1-removebg-preview.png">
+    <script src = "java.js" defer></script>
 
-        <script src = "./java.js"></script>
-        
-    </head>
+</head>
 
-    <body>
-        
-    </body>
+<body>
+    <header>
+        <h1>Rock - Paper - Scissors - Lizard - Spock</h1>
+    </header>
+
+    <div class = "scoreBoard">
+        <div id = "user" class = "badge">player</div>
+        <span id = "userScore">0</span> : <span id = "computerScore">0</span>
+        <div id = "computer" class = "badge">computer</div>
+     
+    </div>
+
+    <div class = "result">
+        <p>Choose your Hand! Choose Carefully!</p>
+    </div>
+
+    <div class = "container">
+     
+        <div class = "choices">
+            <div id = liz class = "choice">
+                <img src = "./Pics/Lizard-removebg-preview.png" alt = "Lizard" width="130px" height="auto">
+            </div>
+            <div id = spk class = "choice">
+                <img src = "./Pics/Spock-removebg-preview.png" alt = "Spock" width="130px" height="auto">
+            </div>
+            <div id = rck class = "choice">
+                <img src = "./Pics/Rock-removebg-preview.png" alt = "Rock" width="130px" height="auto">
+            </div>
+            <div id = scis class = "choice">
+                <img src = "./Pics/Scissors-removebg-preview.png" alt = "Scissors" width="130px" height="auto">
+            </div>
+            <div id = pap class = "choice">
+                <img src = "./Pics/Paper-removebg-preview.png" alt = "Paper" width="130px" height="auto">
+            </div>
+        </div>
+    
+        <div class = "outline">
+            <img src = "./Pics/Outline_RPS-removebg-preview.png" width = "600px" height= "auto" alt = "Outline">
+      </div>
+       
+    </div> 
+
+    
+</body>
 
 </html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #ffa90a;
+    font-family: 'Six Caps', sans-serif;
+    border: 5px solid black;
+    
+    
+}
+
+header{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    background-color: #ffa90a;
+    border-bottom: 5px solid black;
+    
+    
+}
+
+.scoreBoard{
+    border: 2px solid #ffa90a;
+    color: #ffa90a;
+    background-color: black;
+    font-size: 50px;
+    border-radius: 4px;
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.badge{
+    display:inline-block;
+    color: white;
+    padding: 2px 10px;
+    
+    
+}
+
+.result{
+    text-align: center;
+    font-size: 50px;
+    border-top: 5px solid black;
+ 
+    
+}
+
+.container{
+    background-color: white;
+    display:flex;
+    width: 700px;
+    margin: 10px auto;
+    text-align: center;
+    border: 5px solid black;
+    justify-content: center;
+    border-radius: 4px;
+    border-radius: 4px;
+
+}
+
+#liz{
+    position:absolute;
+    left: -1px;
+    bottom: 275px;
+
+}
+
+#spk{
+    position:absolute;
+    left: 234px;
+    bottom: 447px;
+}
+
+#rck{
+    position:absolute;
+    left: 89px;
+    bottom: 0px;
+
+}
+
+#scis{
+    position:absolute;
+    left: 469px;
+    bottom: 275px;
+}
+
+#pap{
+    position:absolute;
+    left: 379px;
+    bottom: 0px;
+} 
+
+.choices{
+    position:relative;
+ 
+}
+
+.choice{
+    position:absolute;
+    
+} 
+
+
+
+
+
